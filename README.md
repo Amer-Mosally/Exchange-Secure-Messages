@@ -21,12 +21,12 @@ Steps test:
 	7-Repeat the same steps with changing the key (to simulate Trudy attack).
 
 
-* A guessing game that uses SHA256 hash function as a key in AES crypto system (CBC mode) to exchange secure messages between Server and Client.
-  RSA (ASymmetric) used to authenticates server and client to each other & AES Symmetric is used as session key.
+* A guessing game that uses SHA256 hash function as a key in AES cryptosystem (CBC mode) to exchange secure messages between Server and Client. 
+  RSA (ASymmetric) is used to authenticate server and client to each other & AES Symmetric is used as a session key.
 
-*Phase3 achieves mutual authentication, perfect forward secrecy (PFS), and immune against man-in-the-middle (MiM) attacks.
+* Phase3 achieves mutual authentication, perfect forward secrecy (PFS), and immune against man-in-the-middle (MiM) attacks.
 
-*Make sure you don't have another library that conflicts with "Crypto"
+* Make sure you don't have another library that conflicts with "Crypto"
 
 * Requirements to run the project:
 1. Python.
