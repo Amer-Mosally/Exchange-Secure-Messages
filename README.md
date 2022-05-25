@@ -10,14 +10,22 @@ Virtual machine:
 	Network: Bridged Adapter
 
 
-Steps test: 
+Steps test:
+
 	0- Change the IP address to your device IP.
+	
 	1- Make sure virtual machine network are in Bridged Adapter mode.
+	
 	2- Run the Server.py script on a virtual machine.
+	
 	3- Run Client.py script on another machine (physical).
+	
 	4- Select 1 to start the game (type 1 on client side).
+	
 	5- Type a number below the correct answer (peek on the Server side to see the correct answer :) .
+	
 	6- Type 2 to quit the game and close the connection.
+	
 	7- Repeat the same steps with changing the key (to simulate Trudy attack).
 
 
